@@ -54,8 +54,8 @@ LIBS=-lcurses			# SYSV
 #LIBS=-ltermlib
 #LIBS=-L/usr/lib/termcap -ltermcap
 LFLAGS=-hbx
-BINDIR=/usr/bin
-LIBDIR=/usr/lib
+BINDIR=/usr/local/bin
+LIBDIR=/usr/local/lib
 
 $(PROGRAM): $(OBJ)
 	$(E) "  LINK    " $@
